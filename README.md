@@ -44,7 +44,7 @@ Each method contains three folds:
   ```
   python test_deep.py ../rDTI_CSD_sift1_tcknum_500000.mat ../models/deep_CE.model 65
   ```
-Remember to change all the paths in the scripts based on your file location.
+Remember to change all the paths in the scripts according to your file location.
 
 
 
