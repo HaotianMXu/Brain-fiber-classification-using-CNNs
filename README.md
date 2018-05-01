@@ -1,4 +1,4 @@
-# Brain-whitematter-pathway-classification-using-CNNs
+# Brain-fiber-classification-using-CNNs
 
 ## Description
 Three diffrent kinds of models for brain fiber classification are included here:
@@ -26,6 +26,8 @@ Each method contains three folds:
   More specifically, for **shallow CNN with focal loss** and **deep CNN with focal loss + center loss**, first run **subjectSplit_s7.py** to randomly split subjects and then run **mat2pkl4sys7.py** to extract fiber data from .mat files and build datasets for CNN.
   
   For **deep CNN with focal loss + center loss + attention**, simply run **mat2pkl.py**.
+  
+  Make sure each fiber is represented by 100 points with 3d coordinates.
 
 - training: files used to train CNN models 
 
