@@ -9,7 +9,7 @@ Three diffrent kinds of models for brain fiber classification are included here:
 
 - deep CNN with focal loss + center loss:
 
-  this model was designed for 65-class TMI data and result was reported in our TMI paper
+  this model was designed for 65-class fMRI data and result was reported in our TMI paper
 
 - deep CNN with focal loss + center loss + attention:
   this model was designed for the high-resolution connectome data
