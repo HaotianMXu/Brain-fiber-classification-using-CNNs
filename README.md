@@ -1,7 +1,7 @@
 # Brain-fiber-classification-using-CNNs
 
 ## Description
-The model for brain fiber classification is included here:
+This code is part of the implementation of our TMI paper Objective Detection of Eloquent Axonal Pathways to Minimize Postoperative Deficits in Pediatric Epilepsy Surgery using Diffusion Tractography and Convolutional Neural Networks. The model for brain fiber classification is included here:
 - deep CNN with focal loss + center loss + attention:
   this model was designed for the high-resolution connectome data
  
