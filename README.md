@@ -4,7 +4,7 @@
 This code is part of the implementation of our TMI paper Objective Detection of Eloquent Axonal Pathways to Minimize Postoperative Deficits in Pediatric Epilepsy Surgery using Diffusion Tractography and Convolutional Neural Networks. The model for brain fiber classification is included here:
 - deep CNN with focal loss + center loss + attention.
  
-## The scripts are verfied on Ubuntu with
+## The scripts were verfied on Ubuntu with
 - [python==3.X](https://www.anaconda.com/download/)
 - [pytorch==1.1 with cuda 9.0](http://pytorch.org/)
 ## Usage
