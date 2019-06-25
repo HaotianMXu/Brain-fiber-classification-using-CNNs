@@ -14,6 +14,6 @@ This code is part of the implementation of our TMI paper Objective Detection of 
   ```
   python /path/to/test_atm.py ./example.mat ./center_focal_attnaive.model 65
   ```
-Remember to change all the paths in the scripts according to your file location. The class index is shown in Table II of the paper. Below is a screenshot:
+Remember to change all the paths in the scripts according to your file location. The class indices are shown as below:
 ![Image of Table II](https://github.com/HaotianMXu/Brain-fiber-classification-using-CNNs/blob/master/index_to_class.PNG)
 
