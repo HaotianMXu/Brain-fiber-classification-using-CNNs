@@ -8,7 +8,7 @@ This code is part of the implementation of our TMI paper Objective Detection of 
 - [python==3.X](https://www.anaconda.com/download/)
 - [pytorch==1.1 with cuda 9.0](http://pytorch.org/)
 ## Usage
-- testing: files used to test trained CNN models using new data (.mat)
+- test: an example .mat file can be found [here](https://drive.google.com/file/d/1jsoRmF9J_bSxKBPV3FFLmVxe-amX3bnJ/view?usp=sharing)
   
   For example, 
   ```
