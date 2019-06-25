@@ -2,10 +2,9 @@
 
 ## Description
 This code is part of the implementation of our TMI paper Objective Detection of Eloquent Axonal Pathways to Minimize Postoperative Deficits in Pediatric Epilepsy Surgery using Diffusion Tractography and Convolutional Neural Networks. The model for brain fiber classification is included here:
-- deep CNN with focal loss + center loss + attention:
-  this model was designed for the high-resolution connectome data
+- deep CNN with focal loss + center loss + attention.
  
-## Requirement
+## The scripts are verfied on Ubuntu with
 - [python==3.X](https://www.anaconda.com/download/)
 - [pytorch==1.1 with cuda 9.0](http://pytorch.org/)
 ## Usage
@@ -13,6 +12,8 @@ This code is part of the implementation of our TMI paper Objective Detection of 
   
   For example, 
   ```
-  python test_atm.py ../rDTI_CSD_sift1_tcknum_500000.mat ../models/deep_CE.model 65
+  python /path/to/test_atm.py ./example.mat ./center_focal_attnaive.model 65
   ```
-Remember to change all the paths in the scripts according to your file location.
+Remember to change all the paths in the scripts according to your file location. The class index is shown in Table II of the paper. Below is a screenshot:
+![Image of Table II](https://github.com/HaotianMXu/Brain-fiber-classification-using-CNNs/blob/master/index_to_class.PNG)
+
