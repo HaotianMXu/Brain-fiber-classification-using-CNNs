@@ -148,8 +148,7 @@ class ResNet(nn.Module):
         embed=x
         x = self.fc(x)
 
-        return F.log_softmax(x),embed,x_att#input=x,dim=1
-
+        return F.log_softmax(input=x,dim=1),embed,x_att
 
 
 def resnet18(**kwargs):

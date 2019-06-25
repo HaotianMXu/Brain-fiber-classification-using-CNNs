@@ -116,7 +116,7 @@ def datato3d(arrays):#list of np arrays, NULL*3*100
 def main(argv):
     matpath,modelpath,classnum=argv[1],argv[2],argv[3]
     """testing settings"""
-    args_test_batch_size=10000
+    args_test_batch_size=4096
     NCLASS=int(classnum)
     """build datasets"""
     assert(matpath[-3:]=='mat')
@@ -148,7 +148,8 @@ def main(argv):
         logit=list()
         attVec=list()
         for data,lbl in tst_loader:
-            data = Variable(data.cuda(), volatile=True)
+            with torch.no_grad():
+                data = Variable(data.cuda())
             output,_,att = model(data)
             logit.append(output.data.cpu().numpy())
             attVec.append(att.data.cpu().numpy())
